@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import maryway from "../../Assets/Projects/maryway.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
+import blog from "../../Assets/Projects/blog.png";
 import capriole from "../../Assets/Projects/capriole.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import sbspune from "../../Assets/Projects/sbspune.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -32,17 +32,17 @@ function Projects() {
               demoLink="https://phcoder05.github.io/My-Portfolio/"
             />
           </Col>
-{/* 
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={blog}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="BlogSpot"
+              description="Welcome to my blog, where I share insights, tips, and updates on web development, coding, and technology. Whether you're a beginner or an experienced developer, you'll find content designed to inspire, educate, and keep you updated on the latest trends and best practices in the tech world."
+              ghLink="https://github.com/PHCoder05/BlogSpot"
+              demoLink="https://blog-phcoder05.vercel.app/"              
             />
-          </Col> */}
+          </Col> 
 <Col md={4} className="project-card">
     <ProjectCard
         imgPath={emotion}
@@ -73,6 +73,16 @@ function Projects() {
               description="Capriole is committed to bridging the gap between athletes and the best sports venues. We provide a seamless experience for booking venues and managing sports academies with ease and efficiency. "
               ghLink="https://github.com/PHCoder05/Sport-Tech"
               demoLink="https://www.capriolesportstech.com/"
+            />
+          </Col> 
+                  <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sbspune}
+              isBlog={false}
+              title="sbspune"
+              description="Sky Blue Stationery, founded in 2011, provides high-quality office supplies, stationery, housekeeping materials, and computer consumables. We cater to the needs of businesses, educators, and home offices, ensuring every workspace is efficient, organized, and inspiring. "
+              ghLink="https://github.com/PHCoder05/sbspune"
+              demoLink="https://www.sbspune.com/"
             />
           </Col> 
         </Row>
