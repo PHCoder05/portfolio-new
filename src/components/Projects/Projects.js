@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import maryway from "../../Assets/Projects/maryway.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/capriole.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -21,16 +21,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -75,7 +65,16 @@ function Projects() {
     />
 </Col>
 
-
+  <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={capriole}
+              isBlog={false}
+              title="Capriole Sport Tech"
+              description="Capriole is committed to bridging the gap between athletes and the best sports venues. We provide a seamless experience for booking venues and managing sports academies with ease and efficiency. "
+              ghLink="https://github.com/PHCoder05/Sport-Tech"
+              demoLink="https://www.capriolesportstech.com/"
+            />
+          </Col> 
         </Row>
       </Container>
     </Container>
