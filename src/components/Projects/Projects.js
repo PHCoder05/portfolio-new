@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import maryway from "../../Assets/Projects/maryway.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/capriole.png";
+import capriole from "../../Assets/Projects/capriole.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
