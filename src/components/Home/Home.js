@@ -13,7 +13,7 @@ function Home() {
       <div className="home-content">
         <div className="home-header">
           <div className="code-block">
-            <span className="code-comment">// Welcome to my portfolio</span>
+            <span className="code-comment">{"// Welcome to my portfolio"}</span>
             <br />
             <span className="code-keyword">const</span> developer = {"{"}
             <br />

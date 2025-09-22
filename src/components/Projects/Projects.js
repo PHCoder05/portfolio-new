@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import maryway from "../../Assets/Projects/maryway.jpg";
 import emotion from "../../Assets/Projects/emotion.png";
 import blog from "../../Assets/Projects/blog.png";
-import capriole from "../../Assets/Projects/capriole.png";
 import sbspune from "../../Assets/Projects/sbspune.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
