@@ -11,12 +11,12 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Pankaj Hadole </span>
             from <span className="purple"> Amravati, India.</span>
             <br />
-            I am currently Student at{" "} <a 
+            I am currently a Student at{" "} <a 
             href ="https://jspmrscoe.edu.in/"
             target ="_blank"
             rel ="noopener noreferrer"
             className="purple">
-              JSPM's Rajarshi Shahu College of Engineering , Pune
+              JSPM's Rajarshi Shahu College of Engineering, Pune
             </a>
             <br />
             I Have Successfully completed my diploma at{" "}
@@ -38,15 +38,18 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Blogs
+              <ImPointRight /> Writing Technical Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Exploring New Technologies
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling & Meeting New People
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build things that make a difference and always keep learning!"{" "}
           </p>
           <footer className="blockquote-footer">Pankaj Hadole</footer>
         </blockquote>
