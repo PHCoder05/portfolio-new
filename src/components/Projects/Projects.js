@@ -345,6 +345,11 @@ function Projects() {
                       date={p.date}
                       status={p.status}
                       commitsLink={p.commitsLink}
+                      prsLink={`${p.ghLink}/pulls`}
+                      userRecentCommits={p.userRecentCommits}
+                      userPRs={p.userPRs}
+                      userCommits={p.userCommits}
+                      commitCount={p.commitCount}
                     />
                   </Col>
                 ))}

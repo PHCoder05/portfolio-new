@@ -24,13 +24,17 @@ function ProjectCards(props) {
             {new Date(props.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short' })}
           </div>
         )}
-        {(props.userRecentCommits > 0 || props.userPRs > 0) && (
+        {(props.userRecentCommits > 0 || props.userPRs > 0) ? (
           <div style={{ color: "#9aa0a6", fontSize: 12, marginBottom: 8 }}>
             {props.userRecentCommits > 0 && (<span>{props.userRecentCommits} commits in last 30 days</span>)}
             {props.userRecentCommits > 0 && props.userPRs > 0 && <span> · </span>}
             {props.userPRs > 0 && (<span>{props.userPRs} PRs</span>)}
           </div>
-        )}
+        ) : (props.userCommits > 0 || props.commitCount > 0) ? (
+          <div style={{ color: "#9aa0a6", fontSize: 12, marginBottom: 8 }}>
+            {props.userCommits > 0 ? `${props.userCommits} total commits by you` : `${props.commitCount} total commits`}
+          </div>
+        ) : null}
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
