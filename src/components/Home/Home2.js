@@ -57,6 +57,13 @@ function Home2() {
                 <b className="purple"> Docker, Kubernetes, Jenkins, Terraform, Ansible, and CI/CD pipelines</b>
               </i>
               &nbsp; for building scalable and maintainable applications.
+              <br />
+              <br />
+              I love to <b className="purple">explore new things</b> - whether it's discovering
+              <i>
+                <b className="purple"> new technologies, new areas of development, or new cities</b>
+              </i>
+              &nbsp; around the world. This curiosity drives me to constantly learn and grow in both my personal and professional life! 🌍
             </p>
           </Col>
           <Col md={4} className="myAvtar">
