@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> OOP, Javascript and HTML. </b>
+                <b className="purple"> OOP, JavaScript, HTML, CSS, and Python. </b>
               </i>
               <br />
               <br />
@@ -33,23 +33,30 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                Marketting.
+                DevOps and Cloud Infrastructure.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Node.js, Next.js, Express.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern JavaScript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple"> React.js, MongoDB, Firebase</b>
               </i>
+              <br />
+              <br />
+              I also have experience with <b className="purple">DevOps tools</b> like
+              <i>
+                <b className="purple"> Docker, Kubernetes, Jenkins, Terraform, Ansible, and CI/CD pipelines</b>
+              </i>
+              &nbsp; for building scalable and maintainable applications.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
