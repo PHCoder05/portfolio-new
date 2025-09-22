@@ -12,6 +12,8 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  --heading-color: #ffffff;
+  --subheading-color: #8892b0;
 }
 
 .purple {
@@ -261,8 +263,8 @@ button:focus {
 
 .home-section {
   position: relative;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-image: var(--section-background-color);
+  color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -675,25 +677,31 @@ button:focus {
 }
 
 .btn-primary {
-  color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  color: var(--bg-color) !important;
+  background-color: var(--highlight-color) !important;
+  border-color: var(--highlight-color) !important;
 }
 
 .btn-primary:hover {
-  color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  color: var(--highlight-color) !important;
+  background-color: transparent !important;
+  border-color: var(--highlight-color) !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: var(--heading-color) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+
+.subheading {
+  color: var(--subheading-color) !important;
+  font-size: 1.2em !important;
+  margin-top: 10px !important;
 }
 
 /* --------- */
@@ -713,12 +721,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(100, 255, 218, 0.35) !important; /* use highlight tone */
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important; /* neutral shadow */
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -732,7 +740,13 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid var(--highlight-color) !important;
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 .tech-icon-images {
   padding: 20px !important;

@@ -31,19 +31,21 @@ function Home() {
             I'm passionate about crafting clean, efficient code and building innovative solutions.
           </p>
           <div className="social-links">
-            <a href="https://github.com/phcoder05" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/PHCoder05" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/pankaj-hadole-722476232/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/pankaj-hadole-722476232" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://codepen.io/Pankaj_0512" className="icon-link">
+            <a href="https://codepen.io/Pankaj_0512" target="_blank" rel="noopener noreferrer" className="icon-link">
               <FaCode />
             </a>
           </div>
           <div className="cta-buttons">
             <Link to="/project" className="btn btn-primary">View Projects</Link>
             <a href="mailto:pankajhadole24@gmail.com" className="btn btn-outline-primary">Contact Me</a>
+            <a href="https://github.com/PHCoder05" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" aria-label="GitHub Profile">GitHub</a>
+            <a href="https://www.linkedin.com/in/pankaj-hadole-722476232" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary" aria-label="LinkedIn Profile">LinkedIn</a>
 
           </div>
         </div>
